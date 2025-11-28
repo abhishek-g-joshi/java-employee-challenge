@@ -1,9 +1,11 @@
 package com.reliaquest.api.dto.request;
 
 import jakarta.validation.constraints.*;
+import lombok.Builder;
 import lombok.Data;
 
 @Data
+@Builder
 public class CreateEmployeeRequest {
     @NotBlank
     private String name;

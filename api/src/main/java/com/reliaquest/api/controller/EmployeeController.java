@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Slf4j
 @RestController
-@RequestMapping(value = "/api/v1/employee")
+@RequestMapping(value = "/api/v1/employees")
 @RequiredArgsConstructor
 public class EmployeeController implements IEmployeeController<EmployeeResponse, CreateEmployeeRequest> {
 
